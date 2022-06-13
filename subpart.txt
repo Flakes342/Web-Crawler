@@ -1,0 +1,9 @@
+We used 3 different classification algorithm. With the first look it looks like SVM should be an appropriate choice for the model but on analysis,
+we realse that RandomForestClassifier performs the best because the dataset is quite big and if we have enough number of trees, overfitting can be easily avoided.
+
+We could also have developed a neural network for the same and it sure would have performed better than others. Apart from that as it is a high dimensional
+we can easily discard LogisticRegression.
+
+We got an accuracy of around 90% using RFC but it can be increased if we do appropriate tuning of parameters and feature selection can also be done in a better way.
+
+Although we have calculated only accuracy for the model, some other parameters like Recall score, precision score, f1 score, etc can be used.
